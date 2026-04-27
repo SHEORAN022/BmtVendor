@@ -15,7 +15,7 @@ const {
   getVendorReviews,
   moderateReview,
   adminGetReviews,
-} = require("../controllers/review.controller");
+} = require("../controllers/Review.controller");
 
 /* ─── Public ─── */
 router.get("/hotel/:hotelId", getHotelReviews);
