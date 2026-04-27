@@ -1,9 +1,6 @@
 const VacationHouse = require("../models/vacationHouseModel");
 const uploadToCloudinary = require("../utils/uploadToCloudinary");
 
-/* =========================================================
-   ADD VACATION HOUSE
-========================================================= */
 
 exports.addVacationHouse = async (req, res) => {
 
