@@ -55,7 +55,7 @@ app.use("/api/vendor/auth", require("./routes/auth.routes"));
 app.use("/api/vendor/hotels", require("./routes/hotel.routes"));
 app.use("/api/hotel-bookings", require("./routes/hotelBooking.routes"));
 app.use("/api/inventory", inventoryRoutes);
-app.use("/api/reviews", require("./routes/review.routes"));
+app.use("/api/reviews", require("./routes/Review.routes"));
 app.use("/api/property", propertyRoutes);
 app.use("/api/promotions", promoRoutes);
 app.use("/api/sponsored", require("./routes/sponsored.routes"));
